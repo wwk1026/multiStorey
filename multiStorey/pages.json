@@ -1,0 +1,190 @@
+{
+	"pages": [    
+			
+			{
+            "path" : "pages/home/home",
+			"style" :
+			{
+				"navigationStyle":"custom",
+			    "navigationBarTitleText": "立体停车",
+			    "enablePullDownRefresh": false
+			}
+            
+        }
+		,{
+		    "path" : "pages/service/service",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "客服中心",
+		        "enablePullDownRefresh": false 
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/chargeRule/chargeRule",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "计价规则",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/active/active",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "特惠活动",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/compass/compass",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "使用指南",
+                "enablePullDownRefresh": false
+            }           
+        }
+        ,{
+            "path" : "pages/person/person",
+            "style" :                                                                                    
+            {
+				"navigationStyle":"custom",
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false,
+				"disableScroll":true
+            }
+            
+        }
+        ,{
+            "path" : "pages/card/card",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的卡包",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+				// "navigationStyle":"custom",
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/Us/Us",
+            "style" :                                                                                    
+            {
+				// "navigationStyle":"custom",
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/key/key",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "取车密钥",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/privacy/privacy",
+            "style" :                                                                                    
+            {
+				// "navigationStyle":"custom",
+                "navigationBarTitleText": "服务于隐私声明",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/headName/headName",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改头像昵称",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+				"navigationStyle":"custom",
+                "navigationBarTitleText": "用户登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/springActive/springActive",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "春日活动",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/newPeople/newPeople",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新人礼包",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pay/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单支付",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/searchCoupons/searchCoupons",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "优惠券",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+    ],
+	"subPackages": [
+		{
+			"root": "subpkg",
+			"pages": [
+				
+			{
+                    "path" : "rule/rule",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "立体停车",
+		"navigationBarBackgroundColor": "#f5f5f5",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
